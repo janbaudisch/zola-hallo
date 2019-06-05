@@ -33,6 +33,13 @@ Either way, you will have to enable the theme in your `config.toml`.
 theme = "hallo"
 ```
 
+### Introduction
+
+The introduction text is included from `templates/partials/introduction.html`.
+
+You will need to create this file and fill it with content.
+
+
 ## Options
 
 See [`config.toml`][config] for an example configuration.
@@ -58,12 +65,6 @@ Default: `Hello!`
 [extra]
 greeting = "Hello!"
 ```
-
-### Introduction
-
-The introduction text is included from `templates/partials/introduction.html`.
-
-To use your own introduction, simply create this file and fill it with content.
 
 ### Links
 

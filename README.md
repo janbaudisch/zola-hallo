@@ -11,7 +11,7 @@
 
 ## Original
 
-This is a port of the original [hallo-hugo][hallo-hugo] theme for Hugo ([License](upstream/LICENSE)).
+This is a port of the original [hallo-hugo][hallo-hugo] theme for Hugo ([License][upstream-license]).
 
 ## Installation
 
@@ -35,7 +35,7 @@ theme = "hallo"
 
 ## Options
 
-See [`config.toml`](config.toml) for an example configuration.
+See [`config.toml`][config] for an example configuration.
 
 ### Author
 
@@ -56,7 +56,7 @@ Default: `Hello!`
 
 ```toml
 [extra]
-greeting = "Hello"
+greeting = "Hello!"
 ```
 
 ### Introduction
@@ -97,3 +97,5 @@ hover = "#333" # link hover
 [hallo-hugo]: https://github.com/EmielH/hallo-hugo
 [fontawesome]: https://fontawesome.com
 [fontawesome-brands]: https://fontawesome.com/icons?d=gallery&s=brands&m=free
+[upstream-license]: https://github.com/flyingP0tat0/zola-hallo/blob/master/upstream/LICENSE
+[config]: https://github.com/flyingP0tat0/zola-hallo/blob/master/config.toml

@@ -93,6 +93,6 @@ hover = "#333" # link hover
 [demo-img]: https://img.shields.io/badge/demo-live-green.svg
 [demo-url]: https://zola-hello.flyingp0tat0.xyz
 [zola]: https://www.getzola.org
-[hallo-hugo]: https://flyingp0tat0.xyz/zola-hallo
+[hallo-hugo]: https://github.com/EmielH/hallo-hugo
 [fontawesome]: https://fontawesome.com
 [fontawesome-brands]: https://fontawesome.com/icons?d=gallery&s=brands&m=free

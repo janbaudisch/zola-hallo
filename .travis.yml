@@ -5,6 +5,7 @@ install:
 
 script:
   - zola build
+  - cp .travis/CNAME public/CNAME
 
 deploy:
   provider: pages

@@ -91,7 +91,7 @@ hover = "#333" # link hover
 [build-img]: https://travis-ci.com/flyingP0tat0/zola-hallo.svg?branch=master
 [build-url]: https://travis-ci.com/flyingP0tat0/zola-hallo
 [demo-img]: https://img.shields.io/badge/demo-live-green.svg
-[demo-url]: https://flyingp0tat0.xyz/zola-hallo
+[demo-url]: https://zola-hello.flyingp0tat0.xyz
 [zola]: https://www.getzola.org
 [hallo-hugo]: https://flyingp0tat0.xyz/zola-hallo
 [fontawesome]: https://fontawesome.com

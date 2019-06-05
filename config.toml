@@ -1,4 +1,4 @@
-base_url = "https://zola-hello.flyingp0tat0.xyz"
+base_url = "https://zola-hallo.flyingp0tat0.xyz"
 title = "Hallo"
 
 compile_sass = true

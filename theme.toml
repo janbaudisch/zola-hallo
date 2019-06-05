@@ -3,7 +3,7 @@ description = "A single-page theme to introduce yourself."
 license = "MIT"
 homepage = "https://github.com/flyingP0tat0/zola-hallo"
 min_version = "0.4.0"
-demo = "https://zola-hello.flyingp0tat0.xyz"
+demo = "https://zola-hallo.flyingp0tat0.xyz"
 
 [extra]
 greeting = "Hello"

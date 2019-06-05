@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>{{ config.title }}</title>
+    
+        <link rel="stylesheet" href="{{ get_url(path='fonts.css') }}">
+        <link rel="stylesheet" href="{{ get_url(path='fontawesome/css/fontawesome.css') }}">
+        <link rel="stylesheet" href="{{ get_url(path='hallo.css') }}">
+
+        {% if config.extra.theme %}
+            <style>
+                body {
+                    color: {{ config.extra.theme.foreground }} !important;
+                    background-color: {{ config.extra.theme.background }} !important;
+                }
+
+                a {
+                    color: {{ config.extra.theme.foreground }} !important;
+                }
+
+                a:hover {
+                    color: {{ config.extra.theme.hover }} !important;
+                }
+
+
+                img.portrait {
+                    border: 10px solid {{ config.extra.theme.foreground }} !important;
+                }
+            </style>
+        {% endif %}
+    </head>
+    <body>
+        <main>
+            <div class="column left">
+                <img src="{{ get_url(path='images/portrait.jpg') }}" class="portrait" alt="Portrait" />
+            </div>
+            <div class="column right">
+                <h1>{{ config.extra.greeting | default(value="Hello") }}</h1>
+                <h2>I am {{ config.extra.author.name | default(value="Hallo") }}.</h2>
+                <p>{% include "partials/introduction.html" %}</p>
+                
+                {% if config.extra.links %}
+                    <div class="links">
+                        {% for link in config.extra.links %}
+                            <a rel="me" href="{{ link.url }}" title="{{ link.title }}">
+                                {% if link.iconset %}
+                                    <span class="{{ link.iconset }} {{ 'fa-' ~ link.icon }}"></span>
+                                {% else %}
+                                    <span class="fab {{ 'fa-' ~ link.icon }}"></span>
+                                {% endif %}
+                            </a>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            </div>
+        </main>
+    </body>
+</html>

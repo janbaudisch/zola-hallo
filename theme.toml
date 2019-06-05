@@ -1,0 +1,32 @@
+name = "hallo"
+description = "A single-page theme to introduce yourself."
+license = "MIT"
+homepage = "https://github.com/flyingP0tat0/zola-hallo"
+min_version = "0.4.0"
+demo = "https://flyingp0tat0.xyz/zola-hallo"
+
+[extra]
+greeting = "Hello"
+
+links = [
+    { title = "E-Mail", url = "mailto:mail@example.org", iconset = "fas", icon = "envelope" },
+    { title = "GitHub", url = "https://github.com", icon = "github" },
+    { title = "Twitter", url = "https://twitter.com", icon = "twitter" }
+]
+
+[extra.author]
+name = "Hallo"
+
+[extra.theme]
+background = "#6FCDBD"
+foreground = "#FFF"
+hover = "#333"
+
+[author]
+name = "Jan Baudisch"
+homepage = "https://flyingp0tat0.xyz"
+
+[original]
+author =  "Emiel Hollander"
+homepage = "https://themes.gohugo.io/hallo-hugo"
+repo = "https://github.com/EmielH/hallo-hugo"

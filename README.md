@@ -52,7 +52,7 @@ name = "Hallo"
 
 The string will be used as a greeting.
 
-Default: `Hello`
+Default: `Hello!`
 
 ```toml
 [extra]

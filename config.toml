@@ -8,7 +8,7 @@ highlight_code = false
 build_search_index = false
 
 [extra]
-greeting = "Hello"
+greeting = "Hello!"
 
 links = [
     { title = "E-Mail", url = "mailto:mail@example.org", iconset = "fas", icon = "envelope" },

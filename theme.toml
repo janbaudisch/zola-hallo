@@ -6,7 +6,7 @@ min_version = "0.4.0"
 demo = "https://zola-hallo.flyingp0tat0.xyz"
 
 [extra]
-greeting = "Hello"
+greeting = "Hello!"
 
 links = [
     { title = "E-Mail", url = "mailto:mail@example.org", iconset = "fas", icon = "envelope" },

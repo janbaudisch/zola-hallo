@@ -70,6 +70,7 @@ To use your own introduction, simply create this file and fill it with content.
 Links show up below the introduction. They are styled with [Font Awesome][fontawesome], you may optionally choose the iconset (default is [brands][fontawesome-brands]).
 
 ```toml
+[extra]
 links = [
     { title = "E-Mail", url = "mailto:mail@example.org", iconset = "fas", icon = "envelope" },
     { title = "GitHub", url = "https://github.com", icon = "github" },

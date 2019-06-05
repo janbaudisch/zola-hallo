@@ -70,6 +70,8 @@ greeting = "Hello!"
 
 This variable defines the `I am` text, which you may want to swap out for another language.
 
+Default: `I am`
+
 ```toml
 [extra]
 iam = "I am"

@@ -39,7 +39,7 @@
             </div>
             <div class="column right">
                 <h1>{{ config.extra.greeting | default(value="Hello") }}</h1>
-                <h2>I am {{ config.extra.author.name | default(value="Hallo") }}.</h2>
+                <h2>{{ config.extra.iam | default(value="I am") }} {{ config.extra.author.name | default(value="Hallo") }}.</h2>
                 <p>{% include "partials/introduction.html" %}</p>
                 
                 {% if config.extra.links %}

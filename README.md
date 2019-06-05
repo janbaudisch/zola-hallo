@@ -66,6 +66,15 @@ Default: `Hello!`
 greeting = "Hello!"
 ```
 
+### `iam`
+
+This variable defines the `I am` text, which you may want to swap out for another language.
+
+```toml
+[extra]
+iam = "I am"
+```
+
 ### Links
 
 Links show up below the introduction. They are styled with [Font Awesome][fontawesome], you may optionally choose the iconset (default is [brands][fontawesome-brands]).

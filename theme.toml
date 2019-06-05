@@ -8,6 +8,8 @@ demo = "https://zola-hallo.flyingp0tat0.xyz"
 [extra]
 greeting = "Hello!"
 
+iam = "I am"
+
 links = [
     { title = "E-Mail", url = "mailto:mail@example.org", iconset = "fas", icon = "envelope" },
     { title = "GitHub", url = "https://github.com", icon = "github" },

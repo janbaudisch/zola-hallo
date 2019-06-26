@@ -1,9 +1,9 @@
 name = "hallo"
 description = "A single-page theme to introduce yourself."
 license = "MIT"
-homepage = "https://github.com/flyingP0tat0/zola-hallo"
+homepage = "https://github.com/janbaudisch/zola-hallo"
 min_version = "0.4.0"
-demo = "https://zola-hallo.flyingp0tat0.xyz"
+demo = "https://zola-hallo.janbaudisch.dev"
 
 [extra]
 greeting = "Hello!"
@@ -26,7 +26,7 @@ hover = "#333"
 
 [author]
 name = "Jan Baudisch"
-homepage = "https://flyingp0tat0.xyz"
+homepage = "https://janbaudisch.dev"
 
 [original]
 author =  "Emiel Hollander"

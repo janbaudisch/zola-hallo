@@ -101,13 +101,13 @@ foreground = "#FFF" # text and portrait border
 hover = "#333" # link hover
 ```
 
-[build-img]: https://travis-ci.com/flyingP0tat0/zola-hallo.svg?branch=master
-[build-url]: https://travis-ci.com/flyingP0tat0/zola-hallo
+[build-img]: https://travis-ci.com/janbaudisch/zola-hallo.svg?branch=master
+[build-url]: https://travis-ci.com/janbaudisch/zola-hallo
 [demo-img]: https://img.shields.io/badge/demo-live-green.svg
-[demo-url]: https://zola-hallo.flyingp0tat0.xyz
+[demo-url]: https://zola-hallo.janbaudisch.dev
 [zola]: https://www.getzola.org
 [hallo-hugo]: https://github.com/EmielH/hallo-hugo
 [fontawesome]: https://fontawesome.com
 [fontawesome-brands]: https://fontawesome.com/icons?d=gallery&s=brands&m=free
-[upstream-license]: https://github.com/flyingP0tat0/zola-hallo/blob/master/upstream/LICENSE
-[config]: https://github.com/flyingP0tat0/zola-hallo/blob/master/config.toml
+[upstream-license]: https://github.com/janbaudisch/zola-hallo/blob/master/upstream/LICENSE
+[config]: https://github.com/janbaudisch/zola-hallo/blob/master/config.toml

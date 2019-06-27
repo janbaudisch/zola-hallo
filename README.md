@@ -18,13 +18,13 @@ This is a port of the original [hallo-hugo][hallo-hugo] theme for Hugo ([License
 The easiest way to install this theme is to either clone it ...
 
 ```
-git clone https://github.com/flyingP0tat0/zola-hallo.git themes/hallo
+git clone https://github.com/janbaudisch/zola-hallo.git themes/hallo
 ```
 
 ... or to use it as a submodule.
 
 ```
-git submodule add https://github.com/flyingP0tat0/zola-hallo.git themes/hallo
+git submodule add https://github.com/janbaudisch/zola-hallo.git themes/hallo
 ```
 
 Either way, you will have to enable the theme in your `config.toml`.

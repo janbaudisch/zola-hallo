@@ -101,8 +101,8 @@ foreground = "#FFF" # text and portrait border
 hover = "#333" # link hover
 ```
 
-[build-img]: https://travis-ci.com/janbaudisch/zola-hallo.svg?branch=master
-[build-url]: https://travis-ci.com/janbaudisch/zola-hallo
+[build-img]: https://builds.sr.ht/~janbaudisch/zola-hallo.svg
+[build-url]: https://builds.sr.ht/~janbaudisch/zola-hallo
 [demo-img]: https://img.shields.io/badge/demo-live-green.svg
 [demo-url]: https://zola-hallo.janbaudisch.dev
 [zola]: https://www.getzola.org

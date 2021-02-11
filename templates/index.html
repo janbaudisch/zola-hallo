@@ -3,9 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
         <title>{{ config.title }}</title>
-    
+
         <link rel="stylesheet" href="{{ get_url(path='fonts.css') }}">
         <link rel="stylesheet" href="{{ get_url(path='fontawesome/css/fontawesome.css') }}">
         <link rel="stylesheet" href="{{ get_url(path='hallo.css') }}">
@@ -40,8 +40,8 @@
             <div class="column right">
                 <h1>{{ config.extra.greeting | default(value="Hello") }}</h1>
                 <h2>{{ config.extra.iam | default(value="I am") }} {{ config.extra.author.name | default(value="Hallo") }}.</h2>
-                <p>{% include "partials/introduction.html" %}</p>
-                
+                <p>{{ section.content | safe }}</p>
+
                 {% if config.extra.links %}
                     <div class="links">
                         {% for link in config.extra.links %}

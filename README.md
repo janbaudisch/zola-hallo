@@ -35,10 +35,13 @@ theme = "hallo"
 
 ### Introduction
 
-The introduction text is included from `templates/partials/introduction.html`.
+The introduction text is made in `content/_index.md`.
 
-You will need to create this file and fill it with content.
-
+```markdown
++++
++++
+Hallo is a single-page theme to introduce yourself. Add a portrait, an introduction, several links, and you're set. Create a partial called introduction.html on your own site to replace this standard introduction. Create a file called portrait.jpg in static/images to replace the standard portrait.
+```
 
 ## Options
 

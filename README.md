@@ -35,10 +35,7 @@ theme = "hallo"
 
 ### Introduction
 
-The introduction text is included from `templates/partials/introduction.html`.
-
-You will need to create this file and fill it with content.
-
+The introduction text is made in `content/_index.md`.
 
 ## Options
 

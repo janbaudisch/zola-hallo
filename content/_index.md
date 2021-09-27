@@ -1,0 +1,3 @@
++++
++++
+Hallo is a single-page theme to introduce yourself. Add a portrait, an introduction, several links, and you're set. Create a partial called introduction.html on your own site to replace this standard introduction. Create a file called portrait.jpg in static/images to replace the standard portrait.

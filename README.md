@@ -1,13 +1,11 @@
-[![Build Status][build-img]][build-url]
-[![Demo][demo-img]][demo-url]
+# Belarus Rust Community
 
-# Hallo
+Introduction page of community use static site engine [Zola][zola]. Based on [zola-hallo][zola-hallo] theme.
 
-> A single-page theme to introduce yourself.
->
-> [Zola][zola] port of [hallo-hugo][hallo-hugo].
-
-![Screenshot](screenshot.png)
+## Local start
+> 1. Install Zola.
+> 2. go into directory with project
+> 3. zola serve
 
 ## Original
 
@@ -76,7 +74,8 @@ iam = "I am"
 
 ### Links
 
-Links show up below the introduction. They are styled with [Font Awesome][fontawesome], you may optionally choose the iconset (default is [brands][fontawesome-brands]).
+Links show up below the introduction. They are styled with [Font Awesome][fontawesome], you may optionally choose the iconset (default
+is [brands][fontawesome-brands]).
 
 ```toml
 [extra]
@@ -98,11 +97,8 @@ foreground = "#FFF" # text and portrait border
 hover = "#333" # link hover
 ```
 
-[build-img]: https://builds.sr.ht/~janbaudisch/zola-hallo.svg
-[build-url]: https://builds.sr.ht/~janbaudisch/zola-hallo
-[demo-img]: https://img.shields.io/badge/demo-live-green.svg
-[demo-url]: https://zola-hallo.janbaudisch.dev
 [zola]: https://www.getzola.org
+[zola-hallo]: https://github.com/janbaudisch/zola-hallo
 [hallo-hugo]: https://github.com/EmielH/hallo-hugo
 [fontawesome]: https://fontawesome.com
 [fontawesome-brands]: https://fontawesome.com/icons?d=gallery&s=brands&m=free

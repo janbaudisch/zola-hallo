@@ -1,5 +1,5 @@
-base_url = "https://zola-hallo.janbaudisch.dev"
-title = "Hallo"
+base_url = "https://rust-lang-by.github.io"
+title = "Belarus Rust Community"
 
 compile_sass = true
 
@@ -8,9 +8,9 @@ highlight_code = false
 build_search_index = false
 
 [extra]
-greeting = "Hello!"
+greeting = "Rust BY"
 
-iam = "I am"
+iam = "We are"
 
 links = [
     { title = "E-Mail", url = "mailto:mail@example.org", iconset = "fas", icon = "envelope" },
@@ -19,7 +19,7 @@ links = [
 ]
 
 [extra.author]
-name = "Hallo"
+name = "Belarus Rust Community"
 
 [extra.theme]
 background = "#6FCDBD"

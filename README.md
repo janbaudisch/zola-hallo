@@ -35,7 +35,16 @@ theme = "hallo"
 
 ### Introduction
 
-The introduction text is made in `content/_index.md`.
+The introduction text is put in `content/_index.md`.
+
+#### Template
+
+Alternatively, it can be included from `templates/partials/introduction.html` with the following configuration option:
+
+```toml
+[extra]
+hallo_use_introduction_template = true
+```
 
 ## Options
 

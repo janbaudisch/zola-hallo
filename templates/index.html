@@ -40,7 +40,11 @@
             <div class="column right">
                 <h1>{{ config.extra.greeting | default(value="Hello") }}</h1>
                 <h2>{{ config.extra.iam | default(value="I am") }} {{ config.extra.author.name | default(value="Hallo") }}.</h2>
-                <p>{{ section.content | safe }}</p>
+                {% if config.extra.hallo_use_introduction_template %}
+                    <p>{% include "partials/introduction.html" %}</p>
+                {% else %}
+                    <p>{{ section.content | safe }}</p>
+                {% endif %}
 
                 {% if config.extra.links %}
                     <div class="links">
